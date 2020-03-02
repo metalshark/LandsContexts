@@ -10,7 +10,7 @@
 
     <name>LandsContexts</name>
     <description>Provides Lands contexts for LuckPerms.</description>
-    <url>https://github.com/metalshark/LandsContexts</url>
+    <url>https://www.spigotmc.org/resources/landscontexts.75677/</url>
 
     <licenses>
         <license>
@@ -35,8 +35,8 @@
     </issueManagement>
 
     <scm>
-        <connection>scm:git:${project.url}.git</connection>
-        <url>${project.url}</url>
+        <connection>scm:git:https://github.com/metalshark/LandsContexts.git</connection>
+        <url>https://github.com/metalshark/LandsContexts</url>
     </scm>
 
     <build>
@@ -96,7 +96,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>LATEST</version>
+            <version>1.15.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
@@ -104,7 +104,7 @@
         <dependency>
             <groupId>com.github.Angeschossen</groupId>
             <artifactId>LandsAPI</artifactId>
-            <version>LATEST</version>
+            <version>4.5.2.0</version>
             <scope>provided</scope>
         </dependency>
 
@@ -112,7 +112,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>LATEST</version>
+            <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
 
@@ -120,7 +120,7 @@
         <dependency>
             <groupId>net.luckperms</groupId>
             <artifactId>api</artifactId>
-            <version>LATEST</version>
+            <version>5.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
